@@ -9,7 +9,7 @@
         <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Home</a>
+        <a class="js-scroll-trigger" href="{{ route('index') }}">Home</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#about">About</a>
