@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',             'CreativeController@index') ->name( 'index');
+Route::get('/portfolio',    'PortfolioController@index')->name( 'portfolio');
+Route::get('/resume',       'ResumeController@index')   ->name( 'resume');
