@@ -12,6 +12,10 @@
         <a class="js-scroll-trigger" href="{{ route('index') }}">Home</a>
       </li>
       <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="{{ route('resume') }}">Resume</a>
+      </li>
+      
+      <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#about">About</a>
       </li>
       <li class="sidebar-nav-item">
