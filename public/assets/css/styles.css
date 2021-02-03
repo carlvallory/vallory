@@ -32,6 +32,12 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --brightbronze:#FFC48B;
+  --lightbronze:#E59E58;
+  --bronze:#CD7F32;
+  --darkbronze:#A86018;
+  --darknessbronze:#813F01;
+  
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -10084,6 +10090,12 @@ header.masthead {
 header.masthead h1 {
   font-size: 2.25rem;
 }
+
+/* Map */
+.map {
+  height: 30rem;
+}
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
@@ -10097,7 +10109,16 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+  .map {
+    height: 75%;
+  }
 }
+.map iframe {
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
 @media (min-width: 1200px) {
   header.masthead h1 {
     font-size: 3.5rem;

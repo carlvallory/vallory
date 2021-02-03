@@ -32,6 +32,12 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --brightbronze:#FFC48B;
+  --lightbronze:#E59E58;
+  --bronze:#CD7F32;
+  --darkbronze:#A86018;
+  --darknessbronze:#813F01;
+
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
